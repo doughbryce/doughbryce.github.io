@@ -1,0 +1,18 @@
+*{
+  margin: 0px;
+}
+#head{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 100vw;
+  height: 6vh;
+  background-color: #68C4AB;
+  font-size: 2em;
+  color: white;
+  overflow: hidden;
+}
+.logo{
+  color: #095256;
+  padding: 0px 10px;
+}
