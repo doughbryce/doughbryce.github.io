@@ -1,6 +1,14 @@
 *{
   margin: 0px;
 }
+/*------------*/
+/*Theme colors*/
+/*Midnight green - #095256*/
+/*Aquamarine - #68C4AB*/
+/*Tan - #EDAE49*/
+/*Coral - #FF8360*/
+/*White - #FAFAFA*/
+/*------------*/
 #head{
   display: flex;
   align-items: center;
@@ -10,9 +18,26 @@
   background-color: #68C4AB;
   font-size: 2em;
   color: white;
-  overflow: hidden;
+  position: fixed;
+  z-index: 1;
 }
 .logo{
   color: #095256;
   padding: 0px 10px;
+}
+.intro{
+  position: relative;
+  text-align: center;
+}
+.me-pic{
+  width: 100vw;
+  background-color: black;
+  filter: blur(7px);
+}
+#name{
+  position: absolute;
+  top: 35vh;
+  left: 30vw;
+  font-size: 5em;
+  color: #FAFAFA;
 }
